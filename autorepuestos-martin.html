@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AUTOREPUESTOS MARTÍN</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Encabezado -->
+  <header class="bg-white shadow-md p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-blue-700">AUTOREPUESTOS MARTÍN</h1>
+    <nav>
+      <ul class="flex gap-4">
+        <li><a href="#catalogo" class="hover:text-blue-600">Catálogo</a></li>
+        <li><a href="#contacto" class="hover:text-blue-600">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Banner principal -->
+  <section class="bg-blue-700 text-white p-10 text-center">
+    <h2 class="text-3xl font-bold mb-2">Repuestos para Autos y Motos</h2>
+    <p class="text-lg mb-4">Productos de calidad, al mejor precio. Envíos a todo el país.</p>
+    <a href="#catalogo" class="bg-white text-blue-700 px-6 py-2 rounded shadow hover:bg-gray-200">Ver Catálogo</a>
+  </section>
+
+  <!-- Catálogo destacado -->
+  <section id="catalogo" class="p-8">
+    <h3 class="text-2xl font-semibold mb-6">Productos Destacados</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <!-- Producto 1 -->
+      <div class="bg-white p-4 rounded shadow">
+        <img src="https://via.placeholder.com/300x200" alt="Producto 1" class="mb-4 w-full">
+        <h4 class="font-bold">Filtro de Aceite para Auto</h4>
+        <p class="text-blue-600 font-semibold">$3.500</p>
+      </div>
+      <!-- Producto 2 -->
+      <div class="bg-white p-4 rounded shadow">
+        <img src="https://via.placeholder.com/300x200" alt="Producto 2" class="mb-4 w-full">
+        <h4 class="font-bold">Pastillas de freno para Moto</h4>
+        <p class="text-blue-600 font-semibold">$2.800</p>
+      </div>
+      <!-- Producto 3 -->
+      <div class="bg-white p-4 rounded shadow">
+        <img src="https://via.placeholder.com/300x200" alt="Producto 3" class="mb-4 w-full">
+        <h4 class="font-bold">Batería 12V</h4>
+        <p class="text-blue-600 font-semibold">$18.000</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="bg-gray-200 p-8">
+    <h3 class="text-2xl font-semibold mb-4">Contacto</h3>
+    <p>¿Necesitás ayuda o no encontrás un repuesto? Escribinos por WhatsApp.</p>
+    <a href="https://wa.me/5491234567890" target="_blank" class="inline-block mt-4 bg-green-500 text-white px-6 py-2 rounded hover:bg-green-600">Enviar WhatsApp</a>
+  </section>
+
+  <!-- Pie de página -->
+  <footer class="bg-white text-center p-4 text-sm text-gray-500">
+    &copy; 2025 AUTOREPUESTOS MARTÍN. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
